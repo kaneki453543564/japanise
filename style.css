@@ -1,0 +1,182 @@
+body{
+    background-image: url('https://kartinkin.net/uploads/posts/2021-07/1626727242_30-kartinkin-com-p-krasno-chernii-zadnii-fon-krasivo-33.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+
+    text-align: center;
+    font-size: 26px;
+}
+a{
+    text-decoration: none;
+}
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#1f1e1e, #313030); 
+    padding: 35px;
+    border-bottom: 1px solid #424242;
+    text-align: center;
+}
+.nav1 a:hover{
+   
+   font-size: 22px;
+   padding: 12px;
+}
+
+.nav1 a{
+    display: inline;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    background: linear-gradient(90deg, #e933ff, #334dff, #e933ff);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textflow 5s linear infinite;
+  font-size: 18px;
+}
+@keyframes textflow {
+    from {background-position: 0% center}         
+    to {background-position: 200% center}
+  }
+
+
+
+
+.vitnav{
+padding: 25vh 50px;
+position: fixed;
+height: 100vh;
+background: linear-gradient(#1f1e1e, #797777); 
+border-right: 3px solid rgb(161, 160, 160);
+left: -280px;
+}
+.vitnav h1{
+    background: linear-gradient(90deg, #ffffff, #727272, #533e3e);
+    background-size: 200% auto;
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.vitnav a{
+    background: linear-gradient(90deg, #e933ff, #334dff, #e933ff);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textflow 5s linear infinite;
+    font-family: cursive;
+    font-size: 30px;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+.info{
+    display: block;
+    margin: 0px auto 0 auto;
+    width: 900px;
+    background: linear-gradient(#89898b, #525253); 
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+}
+.h1fon{
+    display: block;
+    border-top: 2px solid #5f5e5e;
+    background: linear-gradient(#3f3e3e, #1f1e1e); 
+    margin: 30px auto 0 auto;
+    width: 930px;
+    border-radius: 25px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 23px;
+    }
+
+u{ 
+    text-decoration: none;
+}
+.text{
+    padding-top: 10px;
+    display: block;
+    margin-left: 50px;
+    font-size: 19px;
+    padding: 30px;
+}
+.text li{
+    padding-top: 11px;
+}
+.text1{
+font-family: 'Times New Roman', Times, serif;
+    width: 800px;
+    padding-top: 10px;
+    display: block;
+    margin-left: 50px;
+    font-size: 20px;
+    padding-left: 35px;
+}
+.gerb1{
+ display: block;
+margin: 50px auto 0 auto;
+}
+.gerb2{
+    margin-left: 70px;
+    margin-bottom: 30px;
+    height: 120px;
+}
+.p0{
+    font-size: 22px;
+    font-family: sans-serif;
+  
+  padding-bottom: 10px;
+}
+.p1{
+    padding-top: 10px;  
+}
+.p2{
+    padding-top: 10px;  
+}
+.p3{
+    padding-top: 10px;  
+}
+.p4{
+    padding-top: 10px;  
+}
+.p5{
+    padding-top: 10px;  
+}
+.photo1{
+   
+    display: inline;
+   margin-left: 100px;
+   margin-bottom: 50px;
+}
+
+footer a{
+    text-decoration: overline;
+}
+.gerb{
+    height: 40px;
+    width: 55px;
+}
+.gimn{
+    display: block;
+    text-align: center;
+}
