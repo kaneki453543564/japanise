@@ -55,7 +55,7 @@ position: fixed;
 height: 100vh;
 background: linear-gradient(#1f1e1e, #797777); 
 border-right: 3px solid rgb(161, 160, 160);
-left: -280px;
+left: -290px;
 }
 .vitnav h1{
     background: linear-gradient(90deg, #ffffff, #727272, #533e3e);
@@ -70,14 +70,20 @@ left: -280px;
 .vitnav a{
     background: linear-gradient(90deg, #e933ff, #334dff, #e933ff);
     background-size: 200% auto;
+    border-left: 3px solid #ffffff;
+    padding-left: 5px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textflow 5s linear infinite;
     font-family: cursive;
     font-size: 30px;
+}
+
+.vitnav:hover{
     left: 0px;
 }
+
 
 
 
